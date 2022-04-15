@@ -28,6 +28,6 @@ class ValidPalindrome {
         //  System.out.print(ch[m]);
         // System.out.print(k/2);
 
-        return flag?false:true;
+        return !flag;
     }
 }
