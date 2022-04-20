@@ -9,4 +9,5 @@ FacebookInterviewQnts:
   6. Sum of Two Integers without +,- --> loop num1 till 0 from +ve/-ve, with incrementing/decrementing num2 and decrementing/incrementing num1.
   7. validAnagram --> sort both strings and then check in loop, if it breaks return the result.
   8.Remove Nth Node From End of List --> get total nodes count and iterate again till n-k and remove n-k th node
+  9.PlusOne-> travesre list in reverse and then increment last digit and carry till first digit 
   
