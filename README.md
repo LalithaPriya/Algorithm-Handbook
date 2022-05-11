@@ -12,3 +12,6 @@ FacebookInterviewQnts:
   9.PlusOne-> travesre list in reverse and then increment last digit and carry till first digit 
   10. mergeKLists 
  
+ 1. DetectLoop in LL--> by iterating with 2 pointers, one with normal and other with two at a time, if these two meets at same node --> loop detected else no loop 
+ 2. Length of loop in LL --> as in above process, count from the node where the pointers meet the increment the count.
+  
