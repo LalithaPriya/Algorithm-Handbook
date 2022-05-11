@@ -15,3 +15,4 @@ FacebookInterviewQnts:
  1. DetectLoop in LL--> by iterating with 2 pointers, one with normal and other with two at a time, if these two meets at same node --> loop detected else no loop 
  2. Length of loop in LL --> as in above process, count from the node where the pointers meet the increment the count.
   
+ 1. LCA in BST --> by using recursion and check if two nodes either lies in left side or right sides, if not then root will be ancestor
