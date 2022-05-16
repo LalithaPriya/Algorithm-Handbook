@@ -17,4 +17,7 @@ FacebookInterviewQnts:
   
  1. LCA in BST --> by using recursion and check if two nodes either lies in left side or right sides, if not then root will be ancestor
  2. Preorder to Inorder BST --> recursive --> As preorder, with 1st as root and check for element with is greater than root(gt), split in to two arrays as root to gt-1 and gt to n.
- 
+ 3. Check for Identical BSTs without building the trees --> same as above one(2nd), check if root and next min and max values are same in both inputs. If equal then identical.
+ 4. Sorted array to BST --> Recursive --> pick the middle value in array and from left side array pick the middle and assign it to left child and do ame with right child.
+ 5. Convert BST to Min Heap --> by using extra space. Store tree values in array while inorder traversal and assign them back in preorder traversal
+ 6. 
