@@ -12,9 +12,11 @@ FacebookInterviewQnts:
   9.PlusOne-> travesre list in reverse and then increment last digit and carry till first digit 
   10. mergeKLists 
  
+Linked List:
  1. DetectLoop in LL--> by iterating with 2 pointers, one with normal and other with two at a time, if these two meets at same node --> loop detected else no loop 
  2. Length of loop in LL --> as in above process, count from the node where the pointers meet the increment the count.
   
+BST:
  1. LCA in BST --> by using recursion and check if two nodes either lies in left side or right sides, if not then root will be ancestor
  2. Preorder to Inorder BST --> recursive --> As preorder, with 1st as root and check for element with is greater than root(gt), split in to two arrays as root to gt-1 and gt to n.
  3. Check for Identical BSTs without building the trees --> same as above one(2nd), check if root and next min and max values are same in both inputs. If equal then identical.
@@ -24,4 +26,3 @@ FacebookInterviewQnts:
  7. Count pairs from two BSTs whose sum is equal to a given value x --> convert two BSTs into two lists, one from preorder and then one in postorder and then iteratre these two arrays and, if i from arr1 and j from arr2 is equal to k then incremt to both iterator
                        if i+j is less than sum, increase arr1 iterator
                        if i+j is greater than sum, increase arr2 iterator
-                       
