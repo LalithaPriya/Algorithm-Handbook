@@ -20,4 +20,8 @@ FacebookInterviewQnts:
  3. Check for Identical BSTs without building the trees --> same as above one(2nd), check if root and next min and max values are same in both inputs. If equal then identical.
  4. Sorted array to BST --> Recursive --> pick the middle value in array and from left side array pick the middle and assign it to left child and do ame with right child.
  5. Convert BST to Min Heap --> by using extra space. Store tree values in array while inorder traversal and assign them back in preorder traversal
- 6. 
+ 6. Shortest distance between two nodes in BST --> similar approach as in one(1st),so check if 2 nodes lies on either right or left, if not then root is LCA. So then check the distance beetween the nodes to root.
+ 7. Count pairs from two BSTs whose sum is equal to a given value x --> convert two BSTs into two lists, one from preorder and then one in postorder and then iteratre these two arrays and, if i from arr1 and j from arr2 is equal to k then incremt to both iterator
+                       if i+j is less than sum, increase arr1 iterator
+                       if i+j is greater than sum, increase arr2 iterator
+                       
