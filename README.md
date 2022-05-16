@@ -16,4 +16,5 @@ FacebookInterviewQnts:
  2. Length of loop in LL --> as in above process, count from the node where the pointers meet the increment the count.
   
  1. LCA in BST --> by using recursion and check if two nodes either lies in left side or right sides, if not then root will be ancestor
-2
+ 2. Preorder to Inorder BST --> recursive --> As preorder, with 1st as root and check for element with is greater than root(gt), split in to two arrays as root to gt-1 and gt to n.
+ 
