@@ -21,7 +21,8 @@ Linked List:
                   add a new node with vowel next to the first one and 
                   delete the old node and
                   replace the temp pointer with the latest
-                
+5. Find the middle of a given linked list: by using Floyd’s slow and fast pointers technique
+         
 
   
 BST:
