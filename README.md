@@ -15,6 +15,14 @@ FacebookInterviewQnts:
 Linked List:
  1. DetectLoop in LL--> by iterating with 2 pointers, one with normal and other with two at a time, if these two meets at same node --> loop detected else no loop 
  2. Length of loop in LL --> as in above process, count from the node where the pointers meet the increment the count.
+ 3. Sum of 2 LLs data which represents number, digits stored in data--> reverse the linkedLists and then perform sum and store carrier in temp, if needed add that        carrier to next node. Finally reverse the resulted LinkedList.
+ 4. Arrange Consonants and Vowels  in linked list as first vowels and then consonents --> 
+                  assign a pointer to the first vowel and then iterate till next one and
+                  add a new node with vowel next to the first one and 
+                  delete the old node and
+                  replace the temp pointer with the latest
+                
+
   
 BST:
  1. LCA in BST --> by using recursion and check if two nodes either lies in left side or right sides, if not then root will be ancestor
