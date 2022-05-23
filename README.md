@@ -35,3 +35,12 @@ BST:
  7. Count pairs from two BSTs whose sum is equal to a given value x --> convert two BSTs into two lists, one from preorder and then one in postorder and then iteratre these two arrays and, if i from arr1 and j from arr2 is equal to k then incremt to both iterator
                        if i+j is less than sum, increase arr1 iterator
                        if i+j is greater than sum, increase arr2 iterator
+
+Bit Algos:
+
+ 1. Find Element that appears once where every element occurs thrice
+        i. by adding the bits in same positions and then mod by 3 for total value. The result will be the unique number in the array.
+        ii. By adding all unique values in array then multiply by 3 and then subtract the sum of total array. Then divide by 2 as we need to find unique val.
+ 2. Detect if two integers have opposite signs: by using XoR, if 2 numbers have different it will return 1 else 0
+ 3. 
+  
