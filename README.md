@@ -48,5 +48,5 @@ Bit Algos:
  5. Multiply a given Integer with 3.5, without %,*,/ : 2*x + x + x/2
         to multiply with 2 instead of *, left shift num by 1 and then for divide by 2, right shift by 1
         (2*x + x + x/2) ==> (x<<1 + x+ x>>1)
-
+ 6. Find the two non-repeating elements in an array of repeating elements/ Unique Numbers 2
   
