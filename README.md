@@ -45,5 +45,8 @@ Bit Algos:
  3. Count total set bits in all numbers from 1 to n
  4. A Boolean Array Puzzle , where it is a two element array with min one zero element: make both as zero val element:
         --> a[ a[1] ] = a[ a[0] ]
- 5. 
+ 5. Multiply a given Integer with 3.5, without %,*,/ : 2*x + x + x/2
+        to multiply with 2 instead of *, left shift num by 1 and then for divide by 2, right shift by 1
+        (2*x + x + x/2) ==> (x<<1 + x+ x>>1)
+
   
