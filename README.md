@@ -49,4 +49,6 @@ Bit Algos:
         to multiply with 2 instead of *, left shift num by 1 and then for divide by 2, right shift by 1
         (2*x + x + x/2) ==> (x<<1 + x+ x>>1)
  6. Find the two non-repeating elements in an array of repeating elements/ Unique Numbers 2
+
+ 7. Count number of bits to be flipped to convert A to B: by Using XOR for two numbers
   
