@@ -42,5 +42,8 @@ Bit Algos:
         i. by adding the bits in same positions and then mod by 3 for total value. The result will be the unique number in the array.
         ii. By adding all unique values in array then multiply by 3 and then subtract the sum of total array. Then divide by 2 as we need to find unique val.
  2. Detect if two integers have opposite signs: by using XoR, if 2 numbers have different it will return 1 else 0
- 3. 
+ 3. Count total set bits in all numbers from 1 to n
+ 4. A Boolean Array Puzzle , where it is a two element array with min one zero element: make both as zero val element:
+        --> a[ a[1] ] = a[ a[0] ]
+ 5. 
   
