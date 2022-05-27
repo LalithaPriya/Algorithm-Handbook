@@ -22,7 +22,7 @@ Linked List:
                   delete the old node and
                   replace the temp pointer with the latest
 5. Find the middle of a given linked list: by using Floyd’s slow and fast pointers technique
-         
+6. Remove duplicate element from sortedLL: iterate until node.next is not null, while checking if node value and Node.next.value is same then set the pointer to next node.        
 
   
 BST:
