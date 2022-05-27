@@ -23,7 +23,7 @@ Linked List:
                   replace the temp pointer with the latest
 5. Find the middle of a given linked list: by using Floyd’s slow and fast pointers technique
 6. Remove duplicate element from sortedLL: iterate until node.next is not null, while checking if node value and Node.next.value is same then set the pointer to next node.        
-
+7. Reverse a LL in a group of given size: 
   
 BST:
  1. LCA in BST --> by using recursion and check if two nodes either lies in left side or right sides, if not then root will be ancestor
