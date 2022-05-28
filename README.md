@@ -52,3 +52,8 @@ Bit Algos:
 
  7. Count number of bits to be flipped to convert A to B: by Using XOR for two numbers
   
+DP:
+ 1. LCS of 3 strings : by using dp table set all values to zero
+                       Then if characters in all the three strings matches then set the table value with increment of value in prev index( i-1, j-1,k-1)
+                        If not matches, then set tha max value of these ( t[i-1][j][k], t[i][j-1][k], t[i][j][k-1]) 
+                        Then return dp length value
