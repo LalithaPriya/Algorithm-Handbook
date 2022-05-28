@@ -22,8 +22,8 @@ Linked List:
                   delete the old node and
                   replace the temp pointer with the latest
 5. Find the middle of a given linked list: by using Floyd’s slow and fast pointers technique
-         
-
+6. Remove duplicate element from sortedLL: iterate until node.next is not null, while checking if node value and Node.next.value is same then set the pointer to next node.        
+7. Reverse a LL in a group of given size: 
   
 BST:
  1. LCA in BST --> by using recursion and check if two nodes either lies in left side or right sides, if not then root will be ancestor
@@ -52,3 +52,8 @@ Bit Algos:
 
  7. Count number of bits to be flipped to convert A to B: by Using XOR for two numbers
   
+DP:
+ 1. LCS of 3 strings : by using dp table set all values to zero
+                       Then if characters in all the three strings matches then set the table value with increment of value in prev index( i-1, j-1,k-1)
+                        If not matches, then set tha max value of these ( t[i-1][j][k], t[i][j-1][k], t[i][j][k-1]) 
+                        Then return dp length value
