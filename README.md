@@ -1,6 +1,6 @@
 # Algorithm-Handbook
 
-FacebookInterviewQnts:
+**FacebookInterviewQnts**:
   1.  Valid Palindrome (should consists alphanumeric, and case insensitive) —> in Java, check with Character.isLetterOrDigit(char) and check the total           Sentence
   2. Find Triplets (a+b+c =0 ) —> Iterate in 2 loops with Hashset to find the 3rd number 
   3. Valid parenthesis —> Stack , push all the open parenthesis , pop by checking the close parenthesis from the stack
@@ -12,7 +12,7 @@ FacebookInterviewQnts:
   9.PlusOne-> travesre list in reverse and then increment last digit and carry till first digit 
   10. mergeKLists 
  
-Linked List:
+**Linked List:**
  1. DetectLoop in LL--> by iterating with 2 pointers, one with normal and other with two at a time, if these two meets at same node --> loop detected else no loop 
  2. Length of loop in LL --> as in above process, count from the node where the pointers meet the increment the count.
  3. Sum of 2 LLs data which represents number, digits stored in data--> reverse the linkedLists and then perform sum and store carrier in temp, if needed add that        carrier to next node. Finally reverse the resulted LinkedList.
