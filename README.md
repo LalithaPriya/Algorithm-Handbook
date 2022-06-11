@@ -36,7 +36,7 @@ BST:
                        if i+j is less than sum, increase arr1 iterator
                        if i+j is greater than sum, increase arr2 iterator
 
-Bit Algos:
+**Bit Algos:**
 
  1. Find Element that appears once where every element occurs thrice
         i. by adding the bits in same positions and then mod by 3 for total value. The result will be the unique number in the array.
@@ -52,8 +52,14 @@ Bit Algos:
 
  7. Count number of bits to be flipped to convert A to B: by Using XOR for two numbers
   
-DP:
+**DP:**
  1. LCS of 3 strings : by using dp table set all values to zero
                        Then if characters in all the three strings matches then set the table value with increment of value in prev index( i-1, j-1,k-1)
                         If not matches, then set tha max value of these ( t[i-1][j][k], t[i][j-1][k], t[i][j][k-1]) 
                         Then return dp length value
+
+1.SpiralMatrix : Given 2d matrix, split into 4 parts, while iterating, sub iterate
+                  for rl , cl to n
+                  for rl to m, n
+                  for m, n to cl
+                  for m to rl , cl
