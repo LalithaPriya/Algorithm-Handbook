@@ -63,3 +63,8 @@ BST:
                   for rl to m, n
                   for m, n to cl
                   for m to rl , cl
+                  
+**Stack:**
+1. Reverse a string using stack : push and pop the whole string in the stack.
+2. Implement two stacks in an array: implement stack1 from 0th index and stack2 from nth index
+3. 
