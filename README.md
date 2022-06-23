@@ -67,4 +67,8 @@ BST:
 **Stack:**
 1. Reverse a string using stack : push and pop the whole string in the stack.
 2. Implement two stacks in an array: implement stack1 from 0th index and stack2 from nth index
-3. 
+3. Next Greater Element: pick the next greater element from array (right side of the element). By using the stack we can run it by O(N). 
+                         by oterating from nth element, Push the element into the stack and
+                         check if it is greater than current element in array, if yes --> pop element
+                         push the elemnt to stack
+                         
