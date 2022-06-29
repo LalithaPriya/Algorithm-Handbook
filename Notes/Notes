@@ -1,0 +1,6 @@
+Binary Heap : Binary Tree if it follows these
+            1. Complete binary tree 
+            2. either it will be a min heap or max heap
+
+    Heap Sort, Priority Queue uses the binary heap  with O(nlogn)
+    
