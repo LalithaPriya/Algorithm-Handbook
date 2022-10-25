@@ -1,0 +1,33 @@
+Python:
+
+--> Access/ read the elements from end of the list: by using negative indexing 
+	nums[-1] --> to get the last index 
+	nums[-4] --> to get the 4th index value from the end of the list 
+
+--> Slicing i.e accessing multiple elements(range) in the array at a time.
+	nums[start:stop] --> fetch the values from start index to stop index
+	nums[start: stop: step] --> fetch the values from start index to stop index, but here we use step to get results
+	
+--> Negative slicing similar to slicing:
+	ex : nums[-4:-1] --> 4th element to last element
+
+--> The step size might also be a negative number. The slicing direction is changed over by doing this. This indicates that 
+	the slicing begins from sequence[stop + 1] and ends at sequence[start].
+	ex: part = nums[4:1:-1]
+
+--> To fetch list from 0th index to some specific index:
+	ex:nums[:4]
+
+--> TO fetch from some element to the end of the list:
+	ex: nums[4:]
+
+--> Need to clone the list, then
+	ex: ls = nums[::]
+
+-->  Ex: ls = nums[::2] --> 2 refers to step size
+
+-->  Ex: ls nums[::-1] --> -1 reverse the slicing here # ls = [5,4,3,2,1] 
+-->  Ex: ls = nums[::-2] --> #ls = [5,3,1]
+
+
+ 
